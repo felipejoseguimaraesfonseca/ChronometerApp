@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:id="@+id/cronologico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:countDown="true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIAR"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/parar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARAR"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
